@@ -4,12 +4,6 @@
     padding: 0;
 }
 body {
-<<<<<<< HEAD
-    background-color: blueviolet;
-    color: rgb(15, 16, 16);
-    left: 1,3rem;
-}
-=======
     margin: 0 100px;
     background-color: #ffeae0;
 }
@@ -117,4 +111,14 @@ input{
     cursor: pointer;
 }
 
->>>>>>> 575a0072833ca051b797b6b2220e68c688229664
+.content .content-right {
+    display: block;
+    width: 100%;
+}
+.content .content-right img {
+    width: 400px;
+    height: auto;
+    position: relative;
+    animation: rotate 10s linear infinite;
+}
+
